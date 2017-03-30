@@ -14,15 +14,30 @@
             font-size:25px;
             background: silver;
         }
+        /*类选择器的优先级 > HTML标签选择器*/
+        body{
+            color:orange;
+        }
+        p{
+            color:blue;
+            font-size:20px;
+            background-color:pink;
+            width:400px;
+        }
     </style>
 </head>
 <body>
+    你好，北京！<br>
     <span class="span-news"> 新闻1 </span><br>
     <span class="span-news"> 新闻2 </span><br>
     <span class="span-news"> 新闻3 </span><br>
     <span class="span-news"> 新闻4 </span><br>
-    <span class="span-news"> 新闻5 </span>
-    <hr>
+    <span class="span-news"> 新闻5 </span><br>
     <span id="span-news-tb">这是一个比较重要的新闻</span>
+    <p>hello,world!</p>
+    <p>hello,world!</p>
+    <p>hello,world!</p>
+    <p>hello,world!</p>
+    <p>hello,world!</p>
 </body>
 </html>
